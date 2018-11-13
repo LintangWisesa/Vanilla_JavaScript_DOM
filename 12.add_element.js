@@ -14,6 +14,19 @@ newDiv.appendChild(newDivText)
 
 console.log(newDiv)
 
+
+/////////////////////////////////
+
+
+var newtitle = document.createElement('h1')
+newtitle.className = 'title'
+newtitle.id = 'title_id'
+newtitle.setAttribute('style', 'color:red')
+newtitle.append('Halo Gaes!')
+
+console.log(newtitle)
+
+
 /////////////////////////////////
 // add newDiv element to document!
 
