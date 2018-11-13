@@ -1,6 +1,7 @@
 
 var textbox = document.querySelector('input[type="text"]')
 textbox.addEventListener('keyup', input)
+// textbox.addEventListener('keydown', input)
 
 // melihat unicode suatu tombol keyboard
 // function input(e){

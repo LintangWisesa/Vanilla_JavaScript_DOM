@@ -1,16 +1,11 @@
 
-var newDiv = document.createElement('div')
-// add class
-newDiv.className = 'halo'
-// add id
-newDiv.id = 'hi'
-// add attr
-newDiv.setAttribute('title', 'Hello World!')
-
-// create text node
-var newDivText = document.createTextNode('Halo Dunia!')
-// add text to newDiv
-newDiv.appendChild(newDivText)
+var newDiv = document.createElement('div')                  // create element
+newDiv.className = 'halo'                                   // add class
+newDiv.id = 'hi'                                            // add id
+newDiv.setAttribute('style', 'color:red')                   // add attr
+var newDivText = document.createTextNode('Halo Dunia!')     // create text node
+newDiv.appendChild(newDivText)                              // add text to newDiv
+// newDiv.append('Halo Dunia!')
 
 console.log(newDiv)
 
