@@ -4,6 +4,7 @@ var textbox = document.querySelector('input[type="text"]')
 var ul = document.querySelector('ul')
 
 tombol.addEventListener('click', klik)
+textbox.addEventListener('keyup', enter)
 
 function klik(){
     var newList = document.createElement('li')      // create element li
@@ -11,4 +12,11 @@ function klik(){
     newList.append(textbox.value)                   // add text content
     ul.appendChild(newList)                         // insert li to ul
     textbox.value = ''                              // set textbox to blank again
+}
+
+function enter(x){
+    var key = x.which
+    if (key == 13){
+        klik()
+    }
 }
