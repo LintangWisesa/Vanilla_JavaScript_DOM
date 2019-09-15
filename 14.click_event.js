@@ -8,6 +8,7 @@ tombol.addEventListener('mouseup', up)
 
 function klik(e){
     // console.log('Tombol ditekan!')
+    // alert('Tombol ditekan!')
     // console.log(e)
     // console.log(e.target)
     // console.log(e.target.id)

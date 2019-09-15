@@ -5,6 +5,10 @@ list[1].textContent = 'Hahaha'
 list[1].style.fontFamily = 'Impact'
 
 // for(var i=0; i<list.length; i++){
+//     console.log(list[i].textContent)
+// }
+
+// for(var i=0; i<list.length; i++){
 //     list[i].style.backgroundColor = 'pink'
 // }
 

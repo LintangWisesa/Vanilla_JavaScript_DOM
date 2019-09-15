@@ -3,8 +3,9 @@ var newDiv = document.createElement('div')                  // create element
 newDiv.className = 'halo'                                   // add class
 newDiv.id = 'hi'                                            // add id
 newDiv.setAttribute('style', 'color:red')                   // add attr
+
 var newDivText = document.createTextNode('Halo Dunia!')     // create text node
-newDiv.appendChild(newDivText)                              // add text to newDiv
+newDiv.appendChild(newDivText)                              // insert text element into newDiv element
 // newDiv.append('Halo Dunia!')
 
 console.log(newDiv)
