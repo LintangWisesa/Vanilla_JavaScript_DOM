@@ -11,7 +11,7 @@ textbox.addEventListener('keyup', input)
 
 // mengganti konten h1 usai isi input lalu enter
 function input(e){
-    var key = e.which
+    var key = e.whichkeydown
     console.log(key)
     if(key == 13){
         var judul = document.querySelector('#judul')
